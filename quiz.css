@@ -1,0 +1,53 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffe6e6;
+  margin: 0;
+}
+
+#quiz {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  max-width: 600px;
+  text-align: center;
+}
+
+h1 {
+  color: #4CAF50;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+input[type=radio] {
+  margin-right: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+#submit {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background-color: #3e8e41;
+}
+
+#grade {
+  color: #4CAF50;
+  font-size: 20px;
+  margin: 20px 0;
+}
